@@ -1,5 +1,449 @@
 [
   {
+    "name": "/eth2",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/eth2",
+    "data_source": {
+      "cluster_id": 10535572545288535564
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-eth2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/eth2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/eth2",
+    "data_source": {
+      "cluster_id": 10535572545288535564
+    },
+    "params": [
+      {
+        "name": "index",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "currency",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "totalrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timestart",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timeend",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timeaggregation",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "startingbalance",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "protocolrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "txfeerewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "mevrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-eth2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/eth2",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/eth2",
+    "data_source": {
+      "cluster_id": 10535572545288535564
+    },
+    "params": [
+      {
+        "name": "index",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "currency",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "totalrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timestart",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timeend",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timeaggregation",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "startingbalance",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "protocolrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "txfeerewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "mevrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-eth2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/eth2",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/eth2",
+    "data_source": {
+      "cluster_id": 10535572545288535564
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-eth2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/eth2/bulk",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/eth2/bulk",
+    "data_source": {
+      "cluster_id": 10535572545288535564
+    },
+    "params": [
+      {
+        "name": "index",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "currency",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "totalrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timestart",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timeend",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timeaggregation",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "startingbalance",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "protocolrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "txfeerewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "mevrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-eth2-bulk.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/eth2/bulk",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/eth2/bulk",
+    "data_source": {
+      "cluster_id": 10535572545288535564
+    },
+    "params": [
+      {
+        "name": "index",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "currency",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "totalrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timestart",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timeend",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "timeaggregation",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "startingbalance",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "protocolrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "txfeerewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "mevrewards",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/POST-eth2-bulk.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "perfHistoryByCompany",
     "description": "Get historical data for a specific company.",
     "method": "GET",

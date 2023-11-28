@@ -1,0 +1,2 @@
+USE eth2;
+DELETE FROM `eth2` WHERE 1=0 ;

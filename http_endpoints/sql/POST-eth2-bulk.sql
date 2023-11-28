@@ -1,0 +1,2 @@
+USE eth2;
+INSERT INTO `eth2` (`index`,`address`,`currency`,`totalrewards`,`timestart`,`timeend`,`timeaggregation`,`startingbalance`,`protocolrewards`,`txfeerewards`,`mevrewards`) VALUES(${index},${address},${currency},${totalrewards},${timestart},${timeend},${timeaggregation},${startingbalance},${protocolrewards},${txfeerewards},${mevrewards});
